@@ -95,8 +95,9 @@ To override EEPROM settings with config settings, set EEPROM_MODE 0
 // Zonestar ZRIB 2.1          = 39
 // User layout defined in userpins.h = 999
 
+#ifndef MOTHERBOARD
 #define MOTHERBOARD 33
-//#define MOTHERBOARD 63
+#endif
 
 #include "pins.h"
 
